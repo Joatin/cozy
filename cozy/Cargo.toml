@@ -1,0 +1,14 @@
+[package]
+name = "cozy"
+version = "0.0.1"
+edition = "2018"
+
+
+[dependencies]
+tokio = { version = "0.3", features = ["full"] }
+slog = "2.5.2"
+sloggers = "1.0.1"
+anyhow = "1.0.33"
+
+[build-dependencies]
+anyhow = "1.0.33"
